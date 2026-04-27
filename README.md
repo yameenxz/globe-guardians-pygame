@@ -1,6 +1,9 @@
-# Globe Guardians – NASA Space Apps Educational Game
+# Globe Guardians – Award-Winning NASA Space Apps Game
 
-> An interactive Pygame-based game that teaches environmental awareness through boss battles and quiz-based gameplay.
+## 🏆 Achievement
+
+Secured **2nd Place** in the **NASA Space Apps Challenge (2024)** under the *GLOBE Protocol Games* category.
+Recognized for creating an engaging solution that combines environmental education with interactive gameplay.
 
 ---
 
@@ -24,8 +27,8 @@ The objective was to create an interactive solution that helps users understand 
 
 * Player battles environmental “bosses”
 * Each boss represents a real-world issue
-* Correct answers → damage boss
-* Wrong answers → player loses health
+* Correct answers damage the boss
+* Incorrect answers reduce player health
 * Progress through multiple environmental stages
 
 ---
@@ -43,9 +46,9 @@ Each stage introduces unique challenges and questions.
 
 ## Demo
 
-### 🎥 Gameplay Video (30 sec)
+![Gameplay](assets/images/screenshot1.png)
 
-[Watch Gameplay](assets/video/gameplay.mp4)
+[Watch Full Gameplay](assets/video/gameplay.mp4)
 
 ---
 
@@ -54,8 +57,8 @@ Each stage introduces unique challenges and questions.
 * Quiz-based combat system
 * Multiple environmental themes
 * Boss fight mechanics
-* Player & enemy health system
-* Background music and visuals
+* Player and enemy health system
+* Background music and visual assets
 * Progressive difficulty
 
 ---
@@ -69,13 +72,13 @@ Each stage introduces unique challenges and questions.
 
 ## System Design
 
-The game is built using modular components:
+The game follows a modular structure:
 
 * **Game Loop:** Controls gameplay flow and updates
-* **Question System:** Manages quiz logic and validation
-* **Rendering Engine:** Displays characters, backgrounds, and UI
-* **Input Handling:** Captures user actions
-* **Audio System:** Handles background music and effects
+* **Question Engine:** Handles quiz logic and validation
+* **Rendering Module:** Displays UI, characters, and backgrounds
+* **Input Handler:** Captures player interactions
+* **Audio Module:** Manages music and sound effects
 
 ---
 
@@ -97,7 +100,7 @@ The game is built using modular components:
 
 ## How to Run
 
-```bash
+```
 pip install pygame
 python environmental_boss_fight_game.py
 ```
@@ -106,18 +109,10 @@ python environmental_boss_fight_game.py
 
 ## Future Enhancements
 
-* Add more levels and environmental topics
-* Improve animations and UI
-* Add scoring and leaderboard system
-* Enhance game mechanics and AI
-
----
-
-## Learning Outcome
-
-This project demonstrates how game development can be used to create interactive educational experiences.
-
-It combines programming, logic design, and environmental awareness into a single engaging system.
+* Additional levels and environmental scenarios
+* Improved animations and UI
+* Scoring system and leaderboard
+* Enhanced gameplay mechanics
 
 ---
 
